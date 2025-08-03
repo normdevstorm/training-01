@@ -58,6 +58,8 @@ public class Card implements PaymentMethod {
 
     @Override
     public void processPayment() {
+        // 1. Validate card details
+        // 2. Process payment through payment gateway
 
     }
 

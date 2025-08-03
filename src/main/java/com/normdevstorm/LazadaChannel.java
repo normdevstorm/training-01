@@ -17,4 +17,5 @@ public class LazadaChannel extends OnlineChannel{
     public void setOtherConfigurations(Map<String, String> otherConfigurations) {
         this.otherConfigurations = otherConfigurations;
     }
+
 }

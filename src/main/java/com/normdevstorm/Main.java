@@ -1,6 +1,5 @@
 package com.normdevstorm;
 
-import java.text.Format;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
@@ -61,13 +60,12 @@ public class Main {
         System.out.printf("Total price: %.02f\n", totalPrice);
 
         System.out.println("Customer is choosing payment method...");
+        System.out.println("Customer chose Card payment.");
 
         PaymentMethod paymentMethod = new Card("1234-5678-9012-3456", "12/29", "123", "Debit", "TCB");
-
         order.setPaymentMethod(paymentMethod);
 
-        System.out.println("Order details:");
-        order.printOrderDetails();
+        customer.placeOrder(order);
 
     }
 

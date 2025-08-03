@@ -20,18 +20,6 @@ public abstract class Account {
         this.contactInfo = contactInfo;
     }
 
-    public void placeOder(){
-        // TODO: Logic to place an order
-    }
-
-    public void cancelOrder(){
-        // TODO: Logic to cancel an order
-    }
-
-    public void viewOrderHistory(){
-        // TODO: Logic to view order history
-    }
-
     public String getAccountId() {
         return accountId;
     }

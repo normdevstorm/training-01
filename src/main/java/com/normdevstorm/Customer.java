@@ -12,6 +12,15 @@ public class Customer extends  Account {
         this.loyalPoints = loyalPoints;
     }
 
+    public void placeOrder(Order order) {
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("Order placed by customer: " + this.getName());
+        System.out.println("Order details:");
+        order.printOrderDetails();
+        System.out.println("----------------------------------------------------------------");
+
+    }
+
     public String getCustomerId() {
         return customerId;
     }
